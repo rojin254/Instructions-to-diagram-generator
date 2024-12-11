@@ -4,6 +4,15 @@ This application converts instructional text extracted from images into flowchar
 
 ---
 
+## TODO
+
+- [ ] Caching for LLM-generated Diagrams
+- [ ] User Input for LLM Model Selection
+- [ ] Error Handling
+
+---
+
+
 ## Prerequisites
 
 ### Install Python
@@ -62,13 +71,7 @@ streamlit run app.py
 
 ---
 
-## TODO
 
-[ ] Caching for LLM-generated Diagrams
-[ ] User Input for LLM Model Selection
-[ ] Error Handling
-
----
 
 ## Troubleshooting
 - **Tesseract not found**: Ensure the `tesseract_cmd` path in the script is correctly configured.
